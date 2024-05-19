@@ -1,0 +1,183 @@
+2024-05-20 02:35:47,740 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:35:47,743 - app.core.logging_config - ERROR - RequestValidationError: [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:35:47,743 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 02:38:21,148 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:38:21,151 - app.core.logging_config - ERROR - RequestValidationError: POST http://127.0.0.1:8000/api/v1/token2 - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}]
+2024-05-20 02:38:21,151 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 02:38:37,885 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:38:37,888 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}]
+2024-05-20 02:38:37,889 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 02:39:07,932 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:39:07,934 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}]
+2024-05-20 02:39:07,934 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 02:39:29,354 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:39:29,359 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:39:29,360 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:40:13,935 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:40:13,943 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.body at 0x0000022224B51640>
+2024-05-20 02:40:13,944 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:40:35,616 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:40:35,624 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <frame at 0x00000204FF95A5B0, file 'D:\\codeApp\\anaconda3\\lib\\site-packages\\starlette\\requests.py', line 233, code body>
+2024-05-20 02:40:35,625 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:40:55,558 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:40:55,567 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <code object body at 0x00000248B992D7C0, file "D:\codeApp\anaconda3\lib\site-packages\starlette\requests.py", line 233>
+2024-05-20 02:40:55,567 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:41:18,462 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:41:18,470 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x00000223B5911640>
+2024-05-20 02:41:18,471 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:41:36,386 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:41:36,393 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - {}
+2024-05-20 02:41:36,393 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:42:20,500 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:42:20,506 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - ItemsView(<starlette.requests.Request object at 0x000002206A871760>)
+2024-05-20 02:42:20,506 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:42:31,658 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:42:31,664 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - {'scope': {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 1747), 'scheme': 'http', 'method': 'POST', 'root_path': '', 'path': '/api/v1/token2', 'raw_path': b'/api/v1/token2', 'query_string': b'', 'headers': [(b'user-agent', b'Apifox/1.0.0 (https://apifox.com)'), (b'accept', b'*/*'), (b'host', b'127.0.0.1:8000'), (b'accept-encoding', b'gzip, deflate, br'), (b'connection', b'keep-alive'), (b'content-type', b'multipart/form-data; boundary=--------------------------136653351903735616658624'), (b'content-length', b'486')], 'app': <fastapi.applications.FastAPI object at 0x0000021E1F8FFD00>, 'fastapi_astack': <contextlib.AsyncExitStack object at 0x0000021E1FC81700>, 'router': <fastapi.routing.APIRouter object at 0x0000021E1CFFBBB0>, 'endpoint': <function login_for_access_token at 0x0000021E1F8DFDC0>, 'path_params': {}, 'route': APIRoute(path='/api/v1/token2', name='login_for_access_token', methods=['POST'])}, '_receive': <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x0000021E1FC4C9D0>, '_send': <function empty_send at 0x0000021E1EBCBB80>, '_stream_consumed': False, '_is_disconnected': False, '_form': None, '_url': URL('http://127.0.0.1:8000/api/v1/token2')}
+2024-05-20 02:42:31,664 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:43:47,876 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:43:47,884 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <starlette._utils.AwaitableOrContextManagerWrapper object at 0x000001D5D86814F0>
+2024-05-20 02:43:47,885 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:43:55,458 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:44:01,948 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:44:01,956 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x000002BC15501640>
+2024-05-20 02:44:01,957 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:44:11,643 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:44:11,650 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - None
+2024-05-20 02:44:11,650 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:44:23,212 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:44:23,218 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - False
+2024-05-20 02:44:23,219 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:44:38,777 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:45:14,084 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:45:14,092 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x00000268692D1640>
+2024-05-20 02:45:14,092 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:45:35,418 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:45:35,425 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x0000026D5C561640>
+2024-05-20 02:45:35,426 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:45:43,220 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:45:43,229 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x000001396EA81640>
+2024-05-20 02:45:43,229 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:45:58,952 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:45:58,960 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x0000023AB1FA1640>
+2024-05-20 02:45:58,960 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:46:18,146 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:46:23,581 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:46:23,589 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x0000023EF8141640>
+2024-05-20 02:46:23,590 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:47:34,984 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:47:50,613 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:47:50,622 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x00000268F37A1640>
+2024-05-20 02:47:50,622 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:48:06,254 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:48:06,261 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x0000017D734C1640>
+2024-05-20 02:48:06,261 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:48:49,219 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:48:55,984 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:48:55,992 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x000001BB5C0825C0>
+2024-05-20 02:48:55,992 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:49:05,589 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:49:05,595 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x000001D9CBE025C0>
+2024-05-20 02:49:05,596 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:49:22,901 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:49:22,910 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x00000239583F25C0>
+2024-05-20 02:49:22,910 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:49:29,357 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:49:44,251 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:50:03,068 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:50:03,075 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x0000026BC7CE25C0>
+2024-05-20 02:50:03,075 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:50:12,760 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:50:24,992 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:50:24,999 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x0000022CE7D425C0>
+2024-05-20 02:50:25,000 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:51:06,086 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:52:22,684 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:52:22,691 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x000001621AF125C0>
+2024-05-20 02:52:22,691 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:52:38,880 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:52:50,680 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:53:00,526 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:53:00,533 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2 - <coroutine object Request.json at 0x000002169DCE25C0>
+2024-05-20 02:53:00,534 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:54:01,116 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:54:01,123 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:54:01,123 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:54:06,733 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:54:06,740 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:54:06,740 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:55:08,148 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:55:08,153 - app.core.logging_config - ERROR - Failed login attempt for user: qqq2
+2024-05-20 02:55:08,155 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:55:08,155 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:56:09,280 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:56:09,285 - app.core.logging_config - ERROR - login error, user: qqq2
+2024-05-20 02:56:09,286 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:56:09,287 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:57:05,448 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:57:23,957 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:57:23,962 - app.core.logging_config - ERROR - login error, user: qqq2, is_exist: False
+2024-05-20 02:57:23,963 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:57:23,963 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:57:30,803 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:57:30,989 - app.core.logging_config - ERROR - login error, user: qqq, is_exist: True
+2024-05-20 02:57:30,990 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:57:30,990 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 02:58:13,030 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:58:13,217 - app.core.logging_config - ERROR - login error, user: qqq, is_exist: True
+2024-05-20 02:58:13,218 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 02:58:13,219 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 03:01:11,649 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:01:11,834 - app.core.logging_config - ERROR - login error, user: qqq, is_exist: True
+2024-05-20 03:01:11,836 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:01:11,836 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 03:08:04,944 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:08:04,947 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:08:04,947 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:14:54,345 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:14:54,348 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:15:32,654 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:15:32,657 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:16:10,988 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:16:10,991 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:17:17,639 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:17:17,643 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:17:34,209 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:17:34,213 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:17:34,213 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:19:03,442 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:19:03,446 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:19:12,100 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:19:12,103 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:19:12,104 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:19:43,994 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:19:43,997 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:19:43,997 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:20:02,804 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:20:02,806 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:20:02,807 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:20:28,765 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:20:28,768 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:20:28,768 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:21:06,867 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:21:06,870 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:21:06,870 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:21:29,526 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:21:29,529 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:21:29,530 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:21:46,523 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:21:46,525 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:21:46,526 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:21:51,872 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:21:51,874 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username2', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:21:51,874 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:22:07,076 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:22:07,079 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/token2 POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([('username2', 'qqq'), ('password2', '12342'), ('qq', '23'), ('321', '32')])
+2024-05-20 03:22:07,079 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 422
+2024-05-20 03:34:34,925 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:34:35,112 - app.core.logging_config - ERROR - login error, user: qqq, is_exist: True
+2024-05-20 03:34:35,113 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:34:35,114 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-20 03:34:49,325 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 03:34:49,496 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 200
+2024-05-20 07:30:20,859 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 07:30:21,180 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 200

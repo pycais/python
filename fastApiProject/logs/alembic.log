@@ -1,0 +1,108 @@
+2024-05-19 06:14:23 INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+2024-05-19 06:14:23 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 06:14:23 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 06:14:31 INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+2024-05-19 06:14:31 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:17:18 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:17:18 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:17:18 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 07:19:32 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:19:32 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:19:32 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 07:19:44 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:19:44 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:19:44 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 07:20:38 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:20:38 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:20:38 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 07:22:39 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:22:39 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:22:39 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 07:22:50 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:22:50 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:22:50 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 07:22:59 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:22:59 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:23:02 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:23:02 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:23:02 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 07:24:01 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:24:01 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:24:01 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 07:24:06 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:24:06 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:24:06 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 07:24:52 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:24:52 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:24:52 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
+2024-05-19 07:24:59 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:24:59 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:25:12 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:25:12 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:25:12 INFO  [alembic.runtime.migration] Running upgrade  -> 6402f58a9af0, Initial migration
+2024-05-19 07:25:12 DEBUG [alembic.runtime.migration] new branch insert 6402f58a9af0
+2024-05-19 07:25:55 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:25:55 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:25:55 INFO  [alembic.autogenerate.compare] Detected added table 'users'
+2024-05-19 07:25:55 INFO  [alembic.autogenerate.compare] Detected added index ''ix_users_id'' on '('id',)'
+2024-05-19 07:25:55 INFO  [alembic.autogenerate.compare] Detected added index ''ix_users_username'' on '('username',)'
+2024-05-19 07:25:59 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:25:59 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:25:59 INFO  [alembic.runtime.migration] Running upgrade 6402f58a9af0 -> 766eb43725ec, Initial migration
+2024-05-19 07:26:43 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:26:43 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:26:43 INFO  [alembic.runtime.migration] Running upgrade 6402f58a9af0 -> 766eb43725ec, Initial migration
+2024-05-19 07:26:45 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:26:45 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:26:45 ERROR [alembic.util.messaging] Target database is not up to date.
+2024-05-19 07:27:20 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:27:20 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:27:20 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:27:28 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:27:28 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:27:28 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:28:11 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:28:11 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:28:11 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:28:13 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:28:13 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:28:13 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:28:43 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:28:43 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:28:43 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:28:46 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:28:46 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:28:46 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:28:52 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:28:52 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:28:52 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:28:56 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:28:56 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:28:56 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:28:57 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:28:57 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:28:57 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:31:34 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:31:34 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:31:34 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:33:07 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:33:07 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:33:07 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
+2024-05-19 07:33:43 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:33:43 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:33:46 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:33:46 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:33:46 INFO  [alembic.runtime.migration] Running upgrade  -> 2872321e33b4, Initial migration
+2024-05-19 07:33:46 DEBUG [alembic.runtime.migration] new branch insert 2872321e33b4
+2024-05-19 07:34:35 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:34:35 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:34:35 ERROR [alembic.util.messaging] Target database is not up to date.
+2024-05-19 07:34:44 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:34:44 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:34:44 INFO  [alembic.autogenerate.compare] Detected added table 'users'
+2024-05-19 07:34:44 INFO  [alembic.autogenerate.compare] Detected added index ''ix_users_id'' on '('id',)'
+2024-05-19 07:34:44 INFO  [alembic.autogenerate.compare] Detected added index ''ix_users_username'' on '('username',)'
+2024-05-19 07:34:48 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-05-19 07:34:48 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-05-19 07:34:48 INFO  [alembic.runtime.migration] Running upgrade  -> ab9617753095, Initial migration
+2024-05-19 07:34:48 DEBUG [alembic.runtime.migration] new branch insert ab9617753095
