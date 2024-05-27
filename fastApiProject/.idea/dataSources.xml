@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:G:\code\code-python\fastApiProject\sql\spider</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="spider.db" uuid="c739f306-c733-4a7a-90f3-dd1c5471e0f6">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/sql/spider.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

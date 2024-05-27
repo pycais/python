@@ -1,46 +1,62 @@
-"""
-@author: cs
-@version: 1.0.0
-@file: test_user.py
-@time: 2024/5/19 5:21
-@description: 用户相关的测试
-"""
-import requests
+def generate_model(data):
+    def parse_value(value):
+        """Helper function to parse a value and return its type as a string."""
+        if isinstance(value, dict):
+            return parse_dict(value)
+        elif isinstance(value, list):
+            if value:
+                # Assume all elements in the list are of the same type
+                return [parse_value(value[0])]
+            else:
+                return ['Any']
+        elif isinstance(value, str):
+            return 'str'
+        elif isinstance(value, int):
+            return 'int'
+        elif isinstance(value, float):
+            return 'float'
+        elif isinstance(value, bool):
+            return 'bool'
+        else:
+            return 'Any'
 
-# 设置 API 的基本 URL
-base_url = "http://127.0.0.1:8000"
+    def parse_dict(d):
+        """Helper function to parse a dictionary and return its type as a dictionary."""
+        parsed = {'age': 'int',
+                  'is_active': 'int',
+                  'name': 'str',
+                  'phone_numbers': ['str'],
+                  'preferences': {'contact': {'email': 'int', 'sms': 'int'},
+                                  'languages': ['str']}}
 
-# 测试用户注册功能
-def test_register_user():
-    # 构造用户注册的数据
-    data = {
-        "email": "test@example.com",
-        "password": "password"
+        for key, value in d.items():
+            parsed[key] = parse_value(value)
+        return parsed
+
+    return parse_dict(data)
+
+
+# Example usage
+input_data = {
+    "name": "Alice",
+    "age": 30,
+    "address": [
+        {"addr": "123 Main St", "num": 231, "ee": '123'},
+        {"addr": "123 Main St2", "num": 21},
+        {"addr": "123 Main St3", "num": 31, "ee": 'ew'}
+    ],
+    "phone_numbers": ["123-456-7890", "098-765-4321"],
+    "is_active": True,
+    "preferences": {
+        "contact": {
+            "email": True,
+            "sms": False
+        },
+        "languages": ["English", "French"]
     }
-    # 发送 POST 请求进行用户注册
-    response = requests.post(f"{base_url}/register", json=data)
-    # 断言状态码为 200，表示注册成功
-    assert response.status_code == 200
-    # 打印响应内容
-    print("User registered successfully")
+}
 
-# 测试用户登录和获取令牌功能
-def test_login_and_get_token():
-    # 构造用户登录的数据
-    data = {
-        "username": "test@example.com",
-        "password": "password"
-    }
-    # 发送 POST 请求进行用户登录
-    response = requests.post(f"{base_url}/token", data=data)
-    # 断言状态码为 200，表示登录成功
-    assert response.status_code == 200
-    # 解析响应内容，获取访问令牌
-    access_token = response.json()["access_token"]
-    # 打印访问令牌
-    print("Access Token:", access_token)
+if __name__ == '__main__':
+    from pprint import pprint
 
-if __name__ == "__main__":
-    # 运行测试函数
-    test_register_user()
-    test_login_and_get_token()
+    pprint(generate_model(input_data))

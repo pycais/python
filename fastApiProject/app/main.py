@@ -20,6 +20,7 @@ from app.handlers.exception_handlers import (
     validation_exception_handler,
 )
 from app.middleware.logging_middleware import log_requests
+from app.middleware.auth_middleware import AuthMiddleware
 
 Base.metadata.create_all(bind=engine)
 
@@ -29,6 +30,9 @@ app.include_router(auth.router, prefix="/api/v1", tags=["auth"])
 
 # 日志中间件
 app.middleware("http")(log_requests)
+
+# 验证token中间件
+app.add_middleware(AuthMiddleware)
 
 # 自定义异常处理器
 app.add_exception_handler(UserAlreadyExistsException, user_already_exists_exception_handler)

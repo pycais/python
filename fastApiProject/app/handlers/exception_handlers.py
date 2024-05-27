@@ -12,7 +12,7 @@ from starlette.responses import JSONResponse
 
 from app.core.exceptions import UserAlreadyExistsException, InvalidCredentialsException
 from app.core.logging_config import logger
-from app.schemas.response import ErrorResponse
+from app.schemas.base_response import ErrorResponse
 from app.utils.code import Code
 
 
@@ -38,13 +38,13 @@ async def custom_http_exception_handler(request: Request, exc: StarletteHTTPExce
     logger.error(f"HTTPException: {exc.detail} - {request.method} {request.url}")
     return JSONResponse(
         status_code=exc.status_code,
-        # content={"detail": exc.detail},
-        content=ErrorResponse(code=Code.failed, message=exc.detail),
+        content=ErrorResponse(code=Code.failed, message=exc.detail).model_dump(),
     )
 
 
 # 全局处理请求验证错误
 async def validation_exception_handler(request: Request, exc: RequestValidationError):
+    print(request.body())
     logger.error(f"RequestValidationError: {request.url} {request.method} - {exc.errors()} - {exc.body}")
     messages = []
     for err in exc.errors():

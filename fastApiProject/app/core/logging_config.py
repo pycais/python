@@ -10,7 +10,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 formatter = logging.Formatter(
-    '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    '%(asctime)s - %(name)s - [%(filename)s-line:%(lineno)d] %(levelname)s - %(message)s'
 )
 
 # 控制台处理器

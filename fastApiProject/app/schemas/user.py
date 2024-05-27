@@ -14,9 +14,6 @@ class UserCreate(BaseModel):
     password: str
 
 
-class User(BaseModel):
-    id: int
+class UserLogin(BaseModel):
     username: str
-
-    class Config:
-        orm_mode = True
+    password: str

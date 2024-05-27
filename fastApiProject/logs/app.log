@@ -181,3 +181,612 @@
 2024-05-20 03:34:49,496 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 200
 2024-05-20 07:30:20,859 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
 2024-05-20 07:30:21,180 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 200
+2024-05-20 07:49:38,528 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-20 07:50:04,332 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-25 20:52:54,508 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/
+2024-05-25 20:52:54,542 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://127.0.0.1:8000/
+2024-05-25 20:52:54,543 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/ with status 404
+2024-05-25 20:52:55,133 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/favicon.ico
+2024-05-25 20:52:55,133 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://127.0.0.1:8000/favicon.ico
+2024-05-25 20:52:55,134 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2024-05-25 20:53:04,186 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 20:53:04,188 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 20:53:04,758 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 20:53:04,763 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 20:53:23,279 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-25 20:53:23,523 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 200
+2024-05-25 20:53:27,978 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-25 20:53:28,171 - app.core.logging_config - ERROR - login error, user: qqq, is_exist: True
+2024-05-25 20:53:28,172 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-25 20:53:28,173 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-25 20:53:31,646 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-25 20:53:31,837 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 200
+2024-05-25 20:53:44,329 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token1
+2024-05-25 20:53:52,018 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token1
+2024-05-25 20:57:22,266 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token1
+2024-05-25 21:01:04,813 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token1
+2024-05-25 21:01:21,755 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token1
+2024-05-25 21:01:21,938 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token1 with status 200
+2024-05-25 21:01:26,222 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token1
+2024-05-25 21:01:26,388 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token1 with status 200
+2024-05-25 21:01:49,994 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token1
+2024-05-25 21:06:06,239 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token1
+2024-05-25 21:06:06,423 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token1 with status 200
+2024-05-25 21:12:17,816 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:12:17,816 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:12:17,817 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:12:17,831 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:12:17,832 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:12:17,833 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:12:18,424 - app.core.logging_config - INFO - New request: GET http://localhost:8000/favicon.ico
+2024-05-25 21:12:18,425 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/favicon.ico
+2024-05-25 21:12:18,425 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/favicon.ico with status 404
+2024-05-25 21:12:40,169 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 21:12:40,170 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 21:12:40,481 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 21:12:40,486 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 21:12:41,382 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:12:41,382 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:12:41,383 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:12:42,240 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:12:42,240 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:12:42,241 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:12:42,653 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:12:42,654 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:12:42,654 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:12:48,202 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:12:48,202 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:12:48,203 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:13:37,101 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:13:37,101 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:13:37,102 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:14:20,959 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:14:20,960 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:14:20,960 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:15:03,335 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:15:03,336 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:15:03,336 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:17:29,715 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:17:29,715 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:17:29,716 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:17:35,369 - app.core.logging_config - INFO - New request: GET http://localhost:8000/
+2024-05-25 21:17:35,370 - app.core.logging_config - ERROR - HTTPException: Not Found - GET http://localhost:8000/
+2024-05-25 21:17:35,370 - app.core.logging_config - INFO - Completed request: GET http://localhost:8000/ with status 404
+2024-05-25 21:19:37,699 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 21:19:37,700 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 21:19:37,700 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 21:19:39,586 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 21:19:39,587 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 21:19:39,587 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 21:19:40,317 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 21:19:40,317 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 21:19:40,318 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 21:19:41,275 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 21:19:41,276 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 21:19:41,276 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 21:19:55,157 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 21:19:55,157 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 21:19:55,158 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 21:20:52,611 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 21:20:52,611 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 21:20:52,941 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 21:20:52,944 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 21:22:14,497 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 21:22:14,498 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 21:22:15,058 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 21:22:15,059 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 21:33:49,193 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:33:49,193 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:33:49,194 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/v1/login with status 404
+2024-05-25 21:40:20,283 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:40:20,284 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:40:20,284 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/v1/login with status 404
+2024-05-25 21:48:40,814 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:48:40,814 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:48:40,815 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/v1/login with status 404
+2024-05-25 21:48:53,096 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:48:53,097 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:48:53,097 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/v1/login with status 404
+2024-05-25 21:48:53,781 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:48:53,782 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:48:53,782 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/v1/login with status 404
+2024-05-25 21:49:01,518 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:49:01,519 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:49:01,519 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/v1/login with status 404
+2024-05-25 21:49:39,616 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:49:39,617 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/v1/login
+2024-05-25 21:49:39,617 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/v1/login with status 404
+2024-05-25 22:02:59,610 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/v1/login
+2024-05-25 22:02:59,610 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/api/v1/v1/login
+2024-05-25 22:02:59,611 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/v1/login with status 404
+2024-05-25 22:09:35,180 - app.core.logging_config - INFO - New request: OPTIONS http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:09:35,181 - app.core.logging_config - ERROR - HTTPException: Method Not Allowed - OPTIONS http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:09:35,181 - app.core.logging_config - INFO - Completed request: OPTIONS http://127.0.0.1:8000/api/v1/login with status 405
+2024-05-25 22:09:41,245 - app.core.logging_config - INFO - New request: OPTIONS http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:09:41,246 - app.core.logging_config - ERROR - HTTPException: Method Not Allowed - OPTIONS http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:09:41,246 - app.core.logging_config - INFO - Completed request: OPTIONS http://127.0.0.1:8000/api/v1/login with status 405
+2024-05-25 22:10:18,195 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:10:18,199 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/login POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([])
+2024-05-25 22:10:18,200 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 422
+2024-05-25 22:13:25,317 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:13:25,318 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/login POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([])
+2024-05-25 22:13:25,319 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 422
+2024-05-25 22:14:10,011 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:14:10,013 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/login POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([])
+2024-05-25 22:14:10,013 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 422
+2024-05-25 22:19:37,542 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:19:37,544 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/login POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([])
+2024-05-25 22:19:37,544 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 422
+2024-05-25 22:20:26,975 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 22:20:26,976 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 22:20:26,977 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 22:20:48,307 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 22:20:48,308 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 22:20:48,308 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 22:20:54,696 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 22:20:54,697 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 22:20:54,697 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 22:31:05,294 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 22:31:05,294 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 22:31:05,295 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 22:31:26,039 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 22:31:26,040 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 22:31:26,040 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 22:32:16,422 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 22:32:16,422 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 22:32:16,423 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 22:32:19,165 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 22:32:19,166 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 22:32:19,166 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 22:32:19,732 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 22:32:19,732 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 22:32:19,733 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 22:35:45,887 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/login
+2024-05-25 22:35:45,888 - app.core.logging_config - ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/login
+2024-05-25 22:35:45,888 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/login with status 404
+2024-05-25 22:36:35,729 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:36:35,730 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/login POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([])
+2024-05-25 22:36:35,730 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 422
+2024-05-25 22:37:03,248 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:37:03,250 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/login POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([])
+2024-05-25 22:37:03,250 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 422
+2024-05-25 22:38:46,681 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:38:46,684 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/login POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([])
+2024-05-25 22:38:46,684 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 422
+2024-05-25 22:38:53,717 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:38:53,719 - app.core.logging_config - ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/login POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}, {'type': 'missing', 'loc': ('body', 'password'), 'msg': 'Field required', 'input': None, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - FormData([])
+2024-05-25 22:38:53,719 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 422
+2024-05-25 22:40:27,572 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:40:27,754 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 22:40:40,203 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 22:40:40,387 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 22:45:21,295 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 22:45:21,295 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 22:45:21,632 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 22:45:21,636 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 22:45:29,623 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-25 22:45:29,626 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-25 22:45:56,422 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 22:45:56,423 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 22:45:56,587 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 22:45:56,591 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 22:46:01,528 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-25 22:46:01,531 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-25 22:46:32,824 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 22:46:32,825 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 22:46:32,970 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 22:46:32,973 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 22:46:43,281 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/demo?username=32&password=32
+2024-05-25 22:46:43,283 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo?username=32&password=32 with status 200
+2024-05-25 22:53:52,967 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 22:53:52,968 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 22:53:53,292 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 22:53:53,295 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 22:55:15,223 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 22:55:15,224 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 22:55:15,385 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 22:55:15,389 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 22:55:27,683 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login?username=qqq&password=1234
+2024-05-25 22:55:27,899 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login?username=qqq&password=1234 with status 200
+2024-05-25 22:55:56,981 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login?username=qqq&password=1234
+2024-05-25 22:55:57,162 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login?username=qqq&password=1234 with status 200
+2024-05-25 22:56:00,558 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 22:56:00,559 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 22:56:00,785 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 22:56:00,788 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 22:56:42,332 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 22:56:42,333 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 22:56:42,452 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 22:56:42,456 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 23:39:10,137 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 23:39:10,138 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 23:39:10,470 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 23:39:10,474 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 23:39:37,011 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 23:39:37,012 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 23:39:37,150 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 23:39:37,154 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 23:39:50,854 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-25 23:39:50,855 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-25 23:39:50,995 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-25 23:39:50,999 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-25 23:40:11,757 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:40:11,972 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 23:40:20,832 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:40:20,835 - app.core.logging_config - ERROR - HTTPException: Incorrect username or password - POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:40:20,836 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 401
+2024-05-25 23:41:09,836 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/register
+2024-05-25 23:41:10,034 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/register with status 200
+2024-05-25 23:47:12,221 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:47:12,390 - app.core.logging_config - ERROR - HTTPException: Incorrect username or password - POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:47:12,390 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 401
+2024-05-25 23:47:20,098 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:47:20,098 - app.core.logging_config - ERROR - HTTPException: Method Not Allowed - GET http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:47:20,098 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/api/v1/login with status 405
+2024-05-25 23:47:31,209 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:47:31,377 - app.core.logging_config - ERROR - HTTPException: Incorrect username or password - POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:47:31,378 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 401
+2024-05-25 23:48:13,932 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-25 23:48:13,933 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-25 23:48:27,067 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:48:27,237 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 23:48:53,595 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:48:53,764 - app.core.logging_config - ERROR - HTTPException: Incorrect username or password - POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:48:53,764 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 401
+2024-05-25 23:49:15,438 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:49:15,607 - app.core.logging_config - ERROR - HTTPException: Incorrect username or password - POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:49:15,608 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 401
+2024-05-25 23:51:15,726 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:51:15,729 - app.core.logging_config - ERROR - HTTPException: Incorrect username or password - POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:51:15,730 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 401
+2024-05-25 23:51:33,141 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:51:33,334 - app.core.logging_config - ERROR - HTTPException: Incorrect username or password - POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:51:33,335 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 401
+2024-05-25 23:53:22,943 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:53:23,111 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 23:56:09,502 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:56:09,670 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 23:56:22,827 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:56:22,995 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 23:57:52,230 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:57:52,397 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 23:58:13,198 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:58:13,367 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 23:58:33,432 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:58:33,600 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 23:58:36,254 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:58:36,423 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 23:59:34,552 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:59:34,721 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-25 23:59:54,276 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-25 23:59:54,445 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 00:00:25,150 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:00:25,319 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 00:03:54,419 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-26 00:03:54,633 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 200
+2024-05-26 00:04:11,410 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-26 00:04:11,578 - app.core.logging_config - ERROR - login error, user: qqq, is_exist: True
+2024-05-26 00:04:11,580 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-26 00:04:11,580 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-26 00:05:32,419 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-26 00:05:32,611 - app.core.logging_config - ERROR - login error, user: qqq, is_exist: True
+2024-05-26 00:05:32,613 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-26 00:05:32,614 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-26 00:10:36,490 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-26 00:10:36,672 - app.core.logging_config - ERROR - login error, user: qqq, is_exist: True
+2024-05-26 00:10:36,674 - app.core.logging_config - ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-26 00:10:36,674 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 401
+2024-05-26 00:10:39,966 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-26 00:10:40,158 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 200
+2024-05-26 00:10:44,890 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:10:54,639 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:12:33,160 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:12:33,343 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 00:12:57,645 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:12:57,828 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 00:13:27,676 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:13:27,875 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 00:14:41,856 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:14:42,068 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 00:15:00,609 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:15:00,801 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 00:15:49,185 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:15:49,379 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 00:56:51,541 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/token2
+2024-05-26 00:56:51,755 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/token2 with status 200
+2024-05-26 00:57:19,073 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:58:31,465 - app.core.logging_config - INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 00:58:31,650 - app.core.logging_config - INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 01:44:57,624 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 01:44:57,624 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 01:45:20,121 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 01:45:20,122 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 01:46:53,503 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 01:46:53,504 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 01:47:11,375 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 01:47:11,375 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 01:47:22,358 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 01:47:22,358 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 01:49:00,080 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 01:49:00,081 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 01:49:00,209 - app.core.logging_config - ERROR - Authorization header missing
+2024-05-26 01:49:16,560 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 01:49:16,561 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 01:49:16,681 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 01:49:16,685 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 01:49:24,043 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 01:49:24,044 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 01:49:24,154 - app.core.logging_config - INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 01:49:24,155 - app.core.logging_config - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 01:49:48,237 - app.core.logging_config - ERROR - Authorization header missing
+2024-05-26 01:53:50,058 - app.core.logging_config - [auth_middleware.py - 29] ERROR - Authorization header missing
+2024-05-26 01:54:11,714 - app.core.logging_config - [auth_middleware.py-line:29] ERROR - Authorization header missing
+2024-05-26 01:54:57,373 - app.core.logging_config - [auth_middleware.py-line:31] ERROR - Authorization header missing
+2024-05-26 01:55:24,311 - app.core.logging_config - [auth_middleware.py-line:31] ERROR - Authorization header missing
+2024-05-26 02:03:12,240 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:03:12,241 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:03:12,747 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:03:12,751 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:03:23,415 - app.core.logging_config - [auth_middleware.py-line:42] ERROR - Authorization header missing
+2024-05-26 02:04:24,348 - app.core.logging_config - [auth_middleware.py-line:42] ERROR - Authorization header missing
+2024-05-26 02:05:10,325 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:05:10,325 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:05:10,649 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:05:10,650 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:08:24,576 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:08:24,577 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:08:24,878 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:08:24,882 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:09:04,692 - app.core.logging_config - [auth_middleware.py-line:42] ERROR - Authorization header missing
+2024-05-26 02:09:34,420 - app.core.logging_config - [auth_middleware.py-line:43] ERROR - Authorization header missing
+2024-05-26 02:10:55,793 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/token
+2024-05-26 02:10:55,793 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/token
+2024-05-26 02:10:55,794 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/token with status 404
+2024-05-26 02:11:31,032 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:11:31,032 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:11:31,634 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:11:31,638 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:11:39,271 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/token
+2024-05-26 02:11:39,272 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/token
+2024-05-26 02:11:39,272 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/token with status 404
+2024-05-26 02:12:15,797 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/token
+2024-05-26 02:12:15,797 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/token
+2024-05-26 02:12:15,798 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/token with status 404
+2024-05-26 02:13:16,011 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/token
+2024-05-26 02:13:16,012 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/token
+2024-05-26 02:13:16,012 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/token with status 404
+2024-05-26 02:14:20,966 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/token
+2024-05-26 02:14:20,967 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/token
+2024-05-26 02:14:20,967 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/token with status 404
+2024-05-26 02:16:03,601 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/token
+2024-05-26 02:16:03,601 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/token
+2024-05-26 02:16:03,602 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/token with status 404
+2024-05-26 02:16:23,249 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:16:23,250 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:16:23,767 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:16:23,771 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:17:05,386 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/token
+2024-05-26 02:17:05,387 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/token
+2024-05-26 02:17:05,387 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/token with status 404
+2024-05-26 02:17:12,473 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/token
+2024-05-26 02:17:12,473 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not Found - POST http://127.0.0.1:8000/token
+2024-05-26 02:17:12,474 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/token with status 404
+2024-05-26 02:19:10,656 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:19:10,657 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:19:11,249 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:19:11,253 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:19:48,945 - app.core.logging_config - [auth_middleware.py-line:45] ERROR - Authorization header missing
+2024-05-26 02:20:17,127 - app.core.logging_config - [auth_middleware.py-line:45] ERROR - Authorization header missing
+2024-05-26 02:20:20,681 - app.core.logging_config - [auth_middleware.py-line:45] ERROR - Authorization header missing
+2024-05-26 02:28:25,749 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - Authorization header missing
+2024-05-26 02:29:08,268 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - Authorization header missing
+2024-05-26 02:29:50,989 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - Authorization header missing
+2024-05-26 02:30:36,584 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - Authorization header missing http://127.0.0.1:8000/api/v1/demo
+2024-05-26 02:31:09,788 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 02:31:10,001 - app.core.logging_config - [auth.py-line:62] INFO - User logged in: qq
+2024-05-26 02:31:10,002 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 02:31:38,917 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Authorization header missing
+2024-05-26 02:32:35,452 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Authorization header missing
+2024-05-26 02:33:14,717 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Authorization header missing
+2024-05-26 02:33:40,379 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Authorization header missing
+2024-05-26 02:34:13,573 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:34:13,574 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:34:14,193 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:34:14,200 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:35:00,179 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 02:35:00,391 - app.core.logging_config - [auth.py-line:62] INFO - User logged in: qq
+2024-05-26 02:35:00,392 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 02:35:50,034 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:35:50,034 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not authenticated - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:35:50,035 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 02:41:28,061 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:41:28,062 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:41:28,672 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:41:28,675 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:42:14,198 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:42:14,199 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not authenticated - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:42:14,199 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 02:44:26,677 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:44:26,678 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Not authenticated - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:44:26,678 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 02:45:26,300 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:45:26,301 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:45:26,920 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:45:26,922 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:46:24,595 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:46:24,596 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:46:25,112 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:46:25,114 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:48:34,221 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:48:34,221 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:48:34,817 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:48:34,820 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:49:21,058 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 02:49:21,269 - app.core.logging_config - [auth.py-line:73] INFO - User logged in: qq
+2024-05-26 02:49:21,270 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 02:50:13,485 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 02:50:13,700 - app.core.logging_config - [auth.py-line:73] INFO - User logged in: qq
+2024-05-26 02:50:13,701 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 02:50:53,848 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/docs
+2024-05-26 02:50:53,849 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-05-26 02:50:54,476 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/openapi.json
+2024-05-26 02:50:54,481 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-05-26 02:51:03,169 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:51:03,172 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 200
+2024-05-26 02:53:33,220 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:54:22,840 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:54:51,904 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:54:51,907 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 200
+2024-05-26 02:55:28,962 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:55:28,964 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 200
+2024-05-26 02:56:42,950 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:57:43,315 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:59:04,865 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:59:04,867 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Invalid token - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:59:04,867 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 02:59:57,534 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:59:57,535 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Invalid token - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 02:59:57,536 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 03:00:18,388 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 03:00:18,390 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Invalid token - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 03:00:18,391 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 0
+2024-05-26 03:00:40,395 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 03:00:40,396 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Invalid token - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 03:00:40,397 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 16:23:56,149 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:23:56,154 - app.core.logging_config - [exception_handlers.py-line:49] ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/login POST - [{'type': 'model_attributes_type', 'loc': ('body',), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': b'----------------------------783077686866453689997644\r\nContent-Disposition: form-data; name="username"\r\n\r\nqqq\r\n----------------------------783077686866453689997644\r\nContent-Disposition: form-data; name="password"\r\n\r\n12342\r\n----------------------------783077686866453689997644--\r\n', 'url': 'https://errors.pydantic.dev/2.5/v/model_attributes_type'}] - b'----------------------------783077686866453689997644\r\nContent-Disposition: form-data; name="username"\r\n\r\nqqq\r\n----------------------------783077686866453689997644\r\nContent-Disposition: form-data; name="password"\r\n\r\n12342\r\n----------------------------783077686866453689997644--\r\n'
+2024-05-26 16:23:56,154 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 422
+2024-05-26 16:24:57,205 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:24:57,207 - app.core.logging_config - [exception_handlers.py-line:49] ERROR - RequestValidationError: http://127.0.0.1:8000/api/v1/login POST - [{'type': 'missing', 'loc': ('body', 'username'), 'msg': 'Field required', 'input': {'usernmae': 'qq', 'password': 'qq1234'}, 'url': 'https://errors.pydantic.dev/2.5/v/missing'}] - {'usernmae': 'qq', 'password': 'qq1234'}
+2024-05-26 16:24:57,207 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 422
+2024-05-26 16:25:18,756 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:25:35,882 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:25:38,419 - app.core.logging_config - [auth.py-line:74] INFO - User logged in: qq
+2024-05-26 16:25:38,420 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 16:29:04,878 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:29:04,878 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Method Not Allowed - GET http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:29:04,879 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/api/v1/login with status 405
+2024-05-26 16:29:35,377 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:29:35,543 - app.core.logging_config - [auth.py-line:74] INFO - User logged in: qq
+2024-05-26 16:29:35,544 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 16:29:46,305 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Authorization header missing
+2024-05-26 16:33:36,495 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:33:36,681 - app.core.logging_config - [auth.py-line:74] INFO - User logged in: qq
+2024-05-26 16:33:36,682 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 16:34:26,726 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:35:39,949 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:35:39,951 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 16:40:00,333 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:40:00,335 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 16:40:54,328 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:40:54,330 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 16:41:12,924 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:42:31,169 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:42:31,357 - app.core.logging_config - [auth.py-line:74] INFO - User logged in: qq
+2024-05-26 16:42:31,358 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 16:44:04,691 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:44:04,693 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 16:45:48,314 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:45:48,316 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 16:46:29,075 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:46:29,076 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 16:46:58,460 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:46:58,461 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 16:48:04,467 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 16:48:04,652 - app.core.logging_config - [auth.py-line:74] INFO - User logged in: qq
+2024-05-26 16:48:04,653 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 16:48:17,725 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:48:17,727 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 16:48:25,595 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:48:25,596 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 16:48:29,081 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 16:48:29,082 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 21:34:52,861 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 21:34:53,046 - app.core.logging_config - [auth.py-line:68] ERROR - login error, user: qq, is_exist: True
+2024-05-26 21:34:53,047 - app.core.logging_config - [exception_handlers.py-line:29] ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 21:34:53,048 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 401
+2024-05-26 21:36:45,716 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 21:36:45,900 - app.core.logging_config - [auth.py-line:68] ERROR - login error, user: qq, is_exist: True
+2024-05-26 21:36:45,903 - app.core.logging_config - [exception_handlers.py-line:29] ERROR - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 21:36:45,903 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 401
+2024-05-26 21:56:13,888 - app.core.logging_config - [auth_middleware.py-line:52] ERROR - http://127.0.0.1:8000/api/v1/demo: Authorization header missing
+2024-05-26 21:57:42,997 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 21:57:42,999 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 21:58:33,529 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 21:58:33,531 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 22:03:38,550 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Invalid token, signature has expired
+2024-05-26 22:06:28,744 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 22:06:28,745 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Method Not Allowed - GET http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 22:06:28,745 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/api/v1/refresh-token with status 405
+2024-05-26 22:06:36,597 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: GET http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 22:06:36,598 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Method Not Allowed - GET http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 22:06:36,598 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: GET http://127.0.0.1:8000/api/v1/refresh-token with status 405
+2024-05-26 22:06:41,948 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 22:06:41,950 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Invalid token - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 22:06:41,950 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 22:07:03,125 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 22:07:03,309 - app.core.logging_config - [auth.py-line:74] INFO - User logged in: qq
+2024-05-26 22:07:03,310 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 22:07:14,198 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 22:07:14,199 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 200
+2024-05-26 22:10:36,277 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 22:10:36,278 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Invalid token - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 22:10:36,278 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 23:15:14,688 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 23:15:14,689 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Invalid token - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 23:15:14,690 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 23:15:19,495 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 23:15:19,664 - app.core.logging_config - [auth.py-line:74] INFO - User logged in: qq
+2024-05-26 23:15:19,664 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 23:15:31,826 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Invalid token, signature has expired
+2024-05-26 23:15:37,131 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Invalid token, signature has expired
+2024-05-26 23:15:41,707 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 23:15:41,875 - app.core.logging_config - [auth.py-line:74] INFO - User logged in: qq
+2024-05-26 23:15:41,875 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 23:15:54,777 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:15:54,778 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:15:58,799 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:15:58,800 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:15:59,692 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:15:59,693 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:00,981 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:00,983 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:02,004 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:02,005 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:02,740 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:02,743 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:03,454 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:03,455 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:04,180 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:04,181 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:04,908 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:04,909 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:05,611 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:05,612 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:06,300 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:06,302 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:07,237 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:07,238 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:08,124 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:08,125 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:09,182 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:09,184 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:09,826 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:16:09,827 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:16:21,771 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Invalid token, signature has expired
+2024-05-26 23:16:50,458 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-05-26 23:16:50,642 - app.core.logging_config - [auth.py-line:74] INFO - User logged in: qq
+2024-05-26 23:16:50,642 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-05-26 23:17:00,665 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/demo
+2024-05-26 23:17:00,666 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/demo with status 200
+2024-05-26 23:17:01,561 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Invalid token, signature has expired
+2024-05-26 23:17:03,100 - app.core.logging_config - [auth_middleware.py-line:46] ERROR - http://127.0.0.1:8000/api/v1/demo: Invalid token, signature has expired
+2024-05-26 23:17:14,709 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 23:17:14,710 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Invalid token - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 23:17:14,710 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 23:17:20,896 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 23:17:20,897 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Invalid token - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 23:17:20,897 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
+2024-05-26 23:17:36,626 - app.core.logging_config - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 23:17:36,627 - app.core.logging_config - [exception_handlers.py-line:38] ERROR - HTTPException: Invalid token - POST http://127.0.0.1:8000/api/v1/refresh-token
+2024-05-26 23:17:36,627 - app.core.logging_config - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/refresh-token with status 401
