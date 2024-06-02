@@ -8,8 +8,8 @@
 
 
 class Code:
-    success = 1
-    failed = 0
+    success = 0
+    failed = 1
 
 
 class Co:

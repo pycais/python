@@ -1,0 +1,283 @@
+2024-06-01 16:33:18,312 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT DATABASE()
+2024-06-01 16:33:18,312 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:33:18,313 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT @@sql_mode
+2024-06-01 16:33:18,313 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:33:18,313 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT @@lower_case_table_names
+2024-06-01 16:33:18,314 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:33:18,314 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:953 - BEGIN (implicit)
+2024-06-01 16:33:18,315 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 16:33:18,315 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [generated in 0.00009s] {'table_schema': 'spider', 'table_name': 'users'}
+2024-06-01 16:33:18,316 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1013 - COMMIT
+2024-06-01 16:33:19,085 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT DATABASE()
+2024-06-01 16:33:19,085 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:33:19,086 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT @@sql_mode
+2024-06-01 16:33:19,086 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:33:19,086 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT @@lower_case_table_names
+2024-06-01 16:33:19,086 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:33:19,087 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:953 - BEGIN (implicit)
+2024-06-01 16:33:19,088 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 16:33:19,088 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [generated in 0.00008s] {'table_schema': 'spider', 'table_name': 'users'}
+2024-06-01 16:33:19,089 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1013 - COMMIT
+2024-06-01 16:33:19,164 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 16:33:44,637 - app - ERROR - G:\code\code-python\fastApiProject\app\middleware\auth_middleware.py:31 - http://127.0.0.1:8000/: Authorization header missing
+2024-06-01 16:33:45,202 - app - ERROR - G:\code\code-python\fastApiProject\app\middleware\auth_middleware.py:31 - http://127.0.0.1:8000/favicon.ico: Authorization header missing
+2024-06-01 16:33:49,509 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: GET http://127.0.0.1:8000/docs
+2024-06-01 16:33:49,509 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-06-01 16:33:50,132 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: GET http://127.0.0.1:8000/openapi.json
+2024-06-01 16:33:50,136 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-06-01 16:34:52,346 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/register
+2024-06-01 16:34:52,349 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:953 - BEGIN (implicit)
+2024-06-01 16:34:52,350 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT users.id AS users_id, users.username AS users_username, users.hashed_password AS users_hashed_password 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2024-06-01 16:34:52,350 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [generated in 0.00015s] {'username_1': 'qq', 'param_1': 1}
+2024-06-01 16:34:52,558 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - INSERT INTO users (username, hashed_password) VALUES (%(username)s, %(hashed_password)s)
+2024-06-01 16:34:52,558 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [generated in 0.00020s] {'username': 'qq', 'hashed_password': '$2b$12$ClD.PkP4LBfoc.KrRT815usBFYrpmHFkAeE85BEFGzbh3qXoEq5QG'}
+2024-06-01 16:34:52,559 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1013 - COMMIT
+2024-06-01 16:34:52,562 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:953 - BEGIN (implicit)
+2024-06-01 16:34:52,563 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT users.id, users.username, users.hashed_password 
+FROM users 
+WHERE users.id = %(pk_1)s
+2024-06-01 16:34:52,563 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [generated in 0.00012s] {'pk_1': 1}
+2024-06-01 16:34:52,563 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/register with status 200
+2024-06-01 16:34:52,564 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:981 - ROLLBACK
+2024-06-01 16:36:34,033 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT DATABASE()'
+2024-06-01 16:36:34,033 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [raw sql] {}'
+2024-06-01 16:36:34,034 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT @@sql_mode'
+2024-06-01 16:36:34,034 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [raw sql] {}'
+2024-06-01 16:36:34,034 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT @@lower_case_table_names'
+2024-06-01 16:36:34,034 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [raw sql] {}'
+2024-06-01 16:36:34,034 - sqlalchemy.engine.Engine - [base.py-line:953] INFO - BEGIN (implicit)'
+2024-06-01 16:36:34,036 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s'
+2024-06-01 16:36:34,036 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [generated in 0.00008s] {'table_schema': 'spider', 'table_name': 'users'}'
+2024-06-01 16:36:34,037 - sqlalchemy.engine.Engine - [base.py-line:1013] INFO - COMMIT'
+2024-06-01 16:36:34,093 - app - [main.py-line:47] INFO - Starting up...'
+2024-06-01 16:36:39,221 - app - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/register'
+2024-06-01 16:36:39,226 - sqlalchemy.engine.Engine - [base.py-line:953] INFO - BEGIN (implicit)'
+2024-06-01 16:36:39,227 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT users.id AS users_id, users.username AS users_username, users.hashed_password AS users_hashed_password 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s'
+2024-06-01 16:36:39,228 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [generated in 0.00012s] {'username_1': 'qqq', 'param_1': 1}'
+2024-06-01 16:36:39,410 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - INSERT INTO users (username, hashed_password) VALUES (%(username)s, %(hashed_password)s)'
+2024-06-01 16:36:39,410 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [generated in 0.00014s] {'username': 'qqq', 'hashed_password': '$2b$12$yDpxbuxycveBuoeGE/mIF.l2L5p/jWVZx0fBCcjSkb0IoU0RH444G'}'
+2024-06-01 16:36:39,411 - sqlalchemy.engine.Engine - [base.py-line:1013] INFO - COMMIT'
+2024-06-01 16:36:39,414 - sqlalchemy.engine.Engine - [base.py-line:953] INFO - BEGIN (implicit)'
+2024-06-01 16:36:39,415 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT users.id, users.username, users.hashed_password 
+FROM users 
+WHERE users.id = %(pk_1)s'
+2024-06-01 16:36:39,415 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [generated in 0.00009s] {'pk_1': 2}'
+2024-06-01 16:36:39,416 - app - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/register with status 200'
+2024-06-01 16:36:39,417 - sqlalchemy.engine.Engine - [base.py-line:981] INFO - ROLLBACK'
+2024-06-01 16:40:19,875 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT DATABASE()'
+2024-06-01 16:40:19,875 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [raw sql] {}'
+2024-06-01 16:40:19,876 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT @@sql_mode'
+2024-06-01 16:40:19,876 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [raw sql] {}'
+2024-06-01 16:40:19,877 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT @@lower_case_table_names'
+2024-06-01 16:40:19,877 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [raw sql] {}'
+2024-06-01 16:40:19,878 - sqlalchemy.engine.Engine - [base.py-line:953] INFO - BEGIN (implicit)'
+2024-06-01 16:40:19,878 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s'
+2024-06-01 16:40:19,878 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [generated in 0.00016s] {'table_schema': 'spider', 'table_name': 'users'}'
+2024-06-01 16:40:19,879 - sqlalchemy.engine.Engine - [base.py-line:1013] INFO - COMMIT'
+2024-06-01 16:40:19,937 - app - [main.py-line:47] INFO - Starting up...'
+2024-06-01 16:40:53,386 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT DATABASE()'
+2024-06-01 16:40:53,386 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [raw sql] {}'
+2024-06-01 16:40:53,387 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT @@sql_mode'
+2024-06-01 16:40:53,387 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [raw sql] {}'
+2024-06-01 16:40:53,387 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT @@lower_case_table_names'
+2024-06-01 16:40:53,387 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [raw sql] {}'
+2024-06-01 16:40:53,389 - sqlalchemy.engine.Engine - [base.py-line:953] INFO - BEGIN (implicit)'
+2024-06-01 16:40:53,389 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s'
+2024-06-01 16:40:53,389 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [generated in 0.00017s] {'table_schema': 'spider', 'table_name': 'users'}'
+2024-06-01 16:40:53,390 - sqlalchemy.engine.Engine - [base.py-line:1013] INFO - COMMIT'
+2024-06-01 16:40:53,451 - app - [main.py-line:47] INFO - Starting up...'
+2024-06-01 16:41:10,628 - app - [logging_middleware.py-line:13] INFO - New request: POST http://127.0.0.1:8000/api/v1/register'
+2024-06-01 16:41:10,632 - sqlalchemy.engine.Engine - [base.py-line:953] INFO - BEGIN (implicit)'
+2024-06-01 16:41:10,633 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT users.id AS users_id, users.username AS users_username, users.hashed_password AS users_hashed_password 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s'
+2024-06-01 16:41:10,633 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [generated in 0.00028s] {'username_1': 'qqqq', 'param_1': 1}'
+2024-06-01 16:41:10,842 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - INSERT INTO users (username, hashed_password) VALUES (%(username)s, %(hashed_password)s)'
+2024-06-01 16:41:10,843 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [generated in 0.00041s] {'username': 'qqqq', 'hashed_password': '$2b$12$.pR12BN93E63C4ubk5Bd/.WqpeFcng.DWaJMJ1mNAyKJiQo0usMLm'}'
+2024-06-01 16:41:10,844 - sqlalchemy.engine.Engine - [base.py-line:1013] INFO - COMMIT'
+2024-06-01 16:41:10,847 - sqlalchemy.engine.Engine - [base.py-line:953] INFO - BEGIN (implicit)'
+2024-06-01 16:41:10,847 - sqlalchemy.engine.Engine - [base.py-line:1772] INFO - SELECT users.id, users.username, users.hashed_password 
+FROM users 
+WHERE users.id = %(pk_1)s'
+2024-06-01 16:41:10,847 - sqlalchemy.engine.Engine - [base.py-line:1777] INFO - [generated in 0.00029s] {'pk_1': 3}'
+2024-06-01 16:41:10,849 - app - [logging_middleware.py-line:15] INFO - Completed request: POST http://127.0.0.1:8000/api/v1/register with status 200'
+2024-06-01 16:41:10,850 - sqlalchemy.engine.Engine - [base.py-line:981] INFO - ROLLBACK'
+2024-06-01 16:42:54,109 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT DATABASE()
+2024-06-01 16:42:54,109 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:42:54,111 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT @@sql_mode
+2024-06-01 16:42:54,111 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:42:54,111 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT @@lower_case_table_names
+2024-06-01 16:42:54,111 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:42:54,112 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:953 - BEGIN (implicit)
+2024-06-01 16:42:54,113 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 16:42:54,113 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [generated in 0.00016s] {'table_schema': 'spider', 'table_name': 'users'}
+2024-06-01 16:42:54,114 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1013 - COMMIT
+2024-06-01 16:42:54,183 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 16:42:59,556 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/register
+2024-06-01 16:42:59,558 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:953 - BEGIN (implicit)
+2024-06-01 16:42:59,559 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT users.id AS users_id, users.username AS users_username, users.hashed_password AS users_hashed_password 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2024-06-01 16:42:59,560 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [generated in 0.00019s] {'username_1': 'qqqq', 'param_1': 1}
+2024-06-01 16:42:59,560 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:981 - ROLLBACK
+2024-06-01 16:42:59,561 - app - ERROR - G:\code\code-python\fastApiProject\app\handlers\exception_handlers.py:20 - UserAlreadyExistsException: qqqq - POST http://127.0.0.1:8000/api/v1/register
+2024-06-01 16:42:59,561 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/register with status 400
+2024-06-01 16:44:11,188 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 16:44:14,306 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/register
+2024-06-01 16:44:14,311 - app - ERROR - G:\code\code-python\fastApiProject\app\handlers\exception_handlers.py:20 - UserAlreadyExistsException: qqqq - POST http://127.0.0.1:8000/api/v1/register
+2024-06-01 16:44:14,312 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/register with status 400
+2024-06-01 16:44:40,057 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/register
+2024-06-01 16:44:40,061 - app - ERROR - G:\code\code-python\fastApiProject\app\handlers\exception_handlers.py:20 - UserAlreadyExistsException: qqqq - POST http://127.0.0.1:8000/api/v1/register
+2024-06-01 16:44:40,061 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/register with status 400
+2024-06-01 16:44:45,586 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/register
+2024-06-01 16:44:45,777 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/register with status 200
+2024-06-01 16:45:45,655 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-06-01 16:45:45,848 - app - INFO - G:\code\code-python\fastApiProject\app\api\v1\endpoints\auth.py:74 - User logged in: qq
+2024-06-01 16:45:45,849 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-06-01 16:46:04,749 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT DATABASE()
+2024-06-01 16:46:04,749 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:46:04,750 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT @@sql_mode
+2024-06-01 16:46:04,750 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:46:04,750 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT @@lower_case_table_names
+2024-06-01 16:46:04,750 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [raw sql] {}
+2024-06-01 16:46:04,751 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:953 - BEGIN (implicit)
+2024-06-01 16:46:04,751 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 16:46:04,751 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [generated in 0.00016s] {'table_schema': 'spider', 'table_name': 'users'}
+2024-06-01 16:46:04,752 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1013 - COMMIT
+2024-06-01 16:46:04,811 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 16:46:21,015 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-06-01 16:46:21,017 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:953 - BEGIN (implicit)
+2024-06-01 16:46:21,018 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1772 - SELECT users.id AS users_id, users.username AS users_username, users.hashed_password AS users_hashed_password 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2024-06-01 16:46:21,018 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:1777 - [generated in 0.00019s] {'username_1': 'qq', 'param_1': 1}
+2024-06-01 16:46:21,199 - app - INFO - G:\code\code-python\fastApiProject\app\api\v1\endpoints\auth.py:74 - User logged in: qq
+2024-06-01 16:46:21,199 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-06-01 16:46:21,200 - sqlalchemy.engine.Engine - INFO - D:\codeApp\anaconda3\lib\site-packages\sqlalchemy\engine\base.py:981 - ROLLBACK
+2024-06-01 16:47:23,980 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 16:47:39,662 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-06-01 16:47:39,846 - app - INFO - G:\code\code-python\fastApiProject\app\api\v1\endpoints\auth.py:74 - User logged in: qq
+2024-06-01 16:47:39,847 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 200
+2024-06-01 16:48:32,591 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/login
+2024-06-01 16:48:32,759 - app - ERROR - G:\code\code-python\fastApiProject\app\api\v1\endpoints\auth.py:68 - login error, user: qq, is_exist: True
+2024-06-01 16:48:32,761 - app - ERROR - G:\code\code-python\fastApiProject\app\handlers\exception_handlers.py:29 - InvalidCredentialsException: POST http://127.0.0.1:8000/api/v1/login
+2024-06-01 16:48:32,761 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/login with status 401
+2024-06-01 21:13:51,447 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 21:18:05,628 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 21:18:58,473 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 21:19:50,669 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 21:20:48,057 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 21:45:33,881 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 21:46:30,745 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:03:54,167 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:08:08,180 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:31:20,476 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:36:44,758 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:37:08,168 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:37:21,738 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:42:54,871 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:43:10,271 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:47:13,731 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:50:13,171 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:51:04,803 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:53:32,261 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:47 - Starting up...
+2024-06-01 22:56:53,699 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 22:56:57,926 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: GET http://127.0.0.1:8000/docs
+2024-06-01 22:56:57,926 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2024-06-01 22:56:58,287 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: GET http://127.0.0.1:8000/openapi.json
+2024-06-01 22:56:58,292 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2024-06-01 22:57:11,901 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 22:57:28,265 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 22:57:41,552 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 22:57:43,422 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 22:58:01,507 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 22:58:03,077 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 22:58:19,398 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 22:58:21,045 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 22:58:45,789 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 22:58:47,636 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:00:05,813 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:00:08,537 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:00:50,572 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:00:53,372 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:02:14,425 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:02:16,366 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:03:23,659 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:03:26,095 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:03:55,128 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:03:57,753 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:06:31,104 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:07:36,687 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:07:41,039 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:08:24,963 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:08:48,491 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:09:18,663 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:10:05,670 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:10:09,010 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:10:38,214 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:10:42,036 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:10:42,709 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:11:57,953 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:12:00,861 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:12:16,617 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:12:17,842 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:12:30,192 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:12:30,890 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:12:31,549 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:12:52,482 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:12:52,666 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:12:53,322 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:13:38,237 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:13:38,910 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:13:39,557 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:13:48,200 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:13:48,434 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:13:49,096 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:14:02,773 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:21:46,905 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:21:51,504 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:22:58,792 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:23:01,505 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:23:02,177 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:23:08,263 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:23:39,533 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:23:44,265 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:26:58,790 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:27:03,905 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:27:04,335 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:27:33,811 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:27:36,097 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:27:59,135 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:28:00,875 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:28:31,624 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:28:33,146 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:28:53,844 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:28:55,034 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:29:08,451 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:29:09,571 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:29:28,659 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:29:31,137 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:29:31,196 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:30:01,770 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:30:02,010 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:30:16,323 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:30:16,542 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:30:39,497 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:30:39,715 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:31:18,262 - app - INFO - G:\code\code-python\fastApiProject\app\main.py:48 - Starting up...
+2024-06-01 23:31:19,812 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:31:20,031 - app - INFO - G:\code\code-python\fastApiProject\app\middleware\logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:32:18,867 - app - INFO - main.py:48 - Starting up...
+2024-06-01 23:32:20,799 - app - INFO - logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:32:21,025 - app - INFO - logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200
+2024-06-01 23:32:40,053 - app - INFO - logging_middleware.py:13 - New request: POST http://127.0.0.1:8000/api/v1/data-list
+2024-06-01 23:32:40,269 - app - INFO - logging_middleware.py:15 - Completed request: POST http://127.0.0.1:8000/api/v1/data-list with status 200

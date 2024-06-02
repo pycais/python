@@ -8,5 +8,6 @@
 # app/db/base.py
 from app.db.session import Base
 from app.db.models.user import User
+from app.db.models.artist import Artist, Movie
 
 # 导入你所有的模型到这里，使得Alembic能找到它们

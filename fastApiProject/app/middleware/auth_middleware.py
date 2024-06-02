@@ -17,13 +17,13 @@ from app.schemas.base_response import ErrorResponse
 from app.utils.code import Code
 
 # 无需登录的接口
-NO_AUTH_PATHS = ['/docs', '/openapi.json', "/token", "/api/v1/login", "/api/v1/register", "/api/v1/refresh-token"]
+NO_AUTH_PATHS = ['/docs', '/openapi.json', "/token", "/api/v1/login", "/api/v1/register", "/api/v1/refresh-token",
+                 '/api/v1/data-list']
 
 
 class AuthMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
         # 检查路径是否在无需认证的路径列表中
-        # print(request.url.path, ' --------------')
         if request.url.path in NO_AUTH_PATHS:
             response = await call_next(request)
             return response

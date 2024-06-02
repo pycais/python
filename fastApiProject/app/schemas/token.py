@@ -12,14 +12,27 @@ from pydantic import BaseModel
 from typing import Optional
 
 
-class Token(BaseModel):
+class TokenData(BaseModel):
+    username: str
+    refreshToken: str
+    expires: int
     accessToken: str
     token_type: str
-    code: Optional[int] = 1
-    expires: int = int(time.time())
-    refreshToken: str = ''
-    username: str = 'qq'
+
+
+class ResponseToken(BaseModel):
+    code: Optional[int] = 0
+    message: str = 'success'
+    data: TokenData
+
+
+class RefreshToken(BaseModel):
+    accessToken: str
+    refreshToken: str
+    expires: int
 
 
 class RefreshTokenValue(BaseModel):
-    refreshToken: str
+    code: Optional[int] = 0
+    message: str = 'success'
+    data: RefreshToken

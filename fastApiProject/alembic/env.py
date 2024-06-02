@@ -10,7 +10,8 @@ import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from app.db.session import Base  # 修改这里
-from app.db.base import User
+from app.db.base import User, Artist, Movie
+
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

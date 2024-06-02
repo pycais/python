@@ -1,108 +1,211 @@
-2024-05-19 06:14:23 INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-2024-05-19 06:14:23 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 06:14:23 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 06:14:31 INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
-2024-05-19 06:14:31 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:17:18 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:17:18 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:17:18 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 07:19:32 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:19:32 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:19:32 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 07:19:44 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:19:44 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:19:44 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 07:20:38 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:20:38 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:20:38 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 07:22:39 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:22:39 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:22:39 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 07:22:50 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:22:50 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:22:50 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 07:22:59 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:22:59 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:23:02 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:23:02 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:23:02 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 07:24:01 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:24:01 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:24:01 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 07:24:06 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:24:06 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:24:06 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 07:24:52 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:24:52 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:24:52 ERROR [alembic.util.messaging] Can't proceed with --autogenerate option; environment script G:\code\code-python\fastApiProject\alembic\env.py does not provide a MetaData object or sequence of objects to the context.
-2024-05-19 07:24:59 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:24:59 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:25:12 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:25:12 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:25:12 INFO  [alembic.runtime.migration] Running upgrade  -> 6402f58a9af0, Initial migration
-2024-05-19 07:25:12 DEBUG [alembic.runtime.migration] new branch insert 6402f58a9af0
-2024-05-19 07:25:55 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:25:55 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:25:55 INFO  [alembic.autogenerate.compare] Detected added table 'users'
-2024-05-19 07:25:55 INFO  [alembic.autogenerate.compare] Detected added index ''ix_users_id'' on '('id',)'
-2024-05-19 07:25:55 INFO  [alembic.autogenerate.compare] Detected added index ''ix_users_username'' on '('username',)'
-2024-05-19 07:25:59 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:25:59 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:25:59 INFO  [alembic.runtime.migration] Running upgrade 6402f58a9af0 -> 766eb43725ec, Initial migration
-2024-05-19 07:26:43 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:26:43 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:26:43 INFO  [alembic.runtime.migration] Running upgrade 6402f58a9af0 -> 766eb43725ec, Initial migration
-2024-05-19 07:26:45 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:26:45 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:26:45 ERROR [alembic.util.messaging] Target database is not up to date.
-2024-05-19 07:27:20 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:27:20 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:27:20 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:27:28 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:27:28 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:27:28 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:28:11 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:28:11 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:28:11 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:28:13 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:28:13 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:28:13 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:28:43 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:28:43 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:28:43 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:28:46 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:28:46 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:28:46 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:28:52 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:28:52 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:28:52 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:28:56 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:28:56 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:28:56 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:28:57 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:28:57 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:28:57 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:31:34 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:31:34 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:31:34 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:33:07 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:33:07 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:33:07 ERROR [alembic.util.messaging] Can't locate revision identified by '6402f58a9af0'
-2024-05-19 07:33:43 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:33:43 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:33:46 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:33:46 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:33:46 INFO  [alembic.runtime.migration] Running upgrade  -> 2872321e33b4, Initial migration
-2024-05-19 07:33:46 DEBUG [alembic.runtime.migration] new branch insert 2872321e33b4
-2024-05-19 07:34:35 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:34:35 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:34:35 ERROR [alembic.util.messaging] Target database is not up to date.
-2024-05-19 07:34:44 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:34:44 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:34:44 INFO  [alembic.autogenerate.compare] Detected added table 'users'
-2024-05-19 07:34:44 INFO  [alembic.autogenerate.compare] Detected added index ''ix_users_id'' on '('id',)'
-2024-05-19 07:34:44 INFO  [alembic.autogenerate.compare] Detected added index ''ix_users_username'' on '('username',)'
-2024-05-19 07:34:48 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
-2024-05-19 07:34:48 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
-2024-05-19 07:34:48 INFO  [alembic.runtime.migration] Running upgrade  -> ab9617753095, Initial migration
-2024-05-19 07:34:48 DEBUG [alembic.runtime.migration] new branch insert ab9617753095
+2024-06-01 16:25:13,661 INFO  [sqlalchemy.engine.Engine] SELECT DATABASE()
+2024-06-01 16:25:13,662 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:25:13,663 INFO  [sqlalchemy.engine.Engine] SELECT @@sql_mode
+2024-06-01 16:25:13,663 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:25:13,664 INFO  [sqlalchemy.engine.Engine] SELECT @@lower_case_table_names
+2024-06-01 16:25:13,664 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:25:13,665 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-06-01 16:25:13,665 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-06-01 16:25:13,665 INFO  [sqlalchemy.engine.Engine] SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 16:25:13,666 INFO  [sqlalchemy.engine.Engine] [generated in 0.00051s] {'table_schema': 'spider', 'table_name': 'alembic_version'}
+2024-06-01 16:25:13,667 INFO  [sqlalchemy.engine.Engine] BEGIN (implicit)
+2024-06-01 16:25:13,667 INFO  [sqlalchemy.engine.Engine] SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 16:25:13,667 INFO  [sqlalchemy.engine.Engine] [cached since 0.002055s ago] {'table_schema': 'spider', 'table_name': 'alembic_version'}
+2024-06-01 16:25:13,668 INFO  [sqlalchemy.engine.Engine] 
+CREATE TABLE alembic_version (
+	version_num VARCHAR(32) NOT NULL, 
+	CONSTRAINT alembic_version_pkc PRIMARY KEY (version_num)
+)
+
+
+2024-06-01 16:25:13,669 INFO  [sqlalchemy.engine.Engine] [no key 0.00044s] {}
+2024-06-01 16:25:13,675 INFO  [sqlalchemy.engine.Engine] COMMIT
+2024-06-01 16:25:13,677 INFO  [sqlalchemy.engine.Engine] BEGIN (implicit)
+2024-06-01 16:25:13,677 INFO  [alembic.runtime.migration] Running upgrade  -> a1c987230d59, first
+2024-06-01 16:25:13,677 INFO  [sqlalchemy.engine.Engine] INSERT INTO alembic_version (version_num) VALUES ('a1c987230d59')
+2024-06-01 16:25:13,677 INFO  [sqlalchemy.engine.Engine] [generated in 0.00022s] {}
+2024-06-01 16:25:13,678 INFO  [sqlalchemy.engine.Engine] COMMIT
+2024-06-01 16:26:46,002 INFO  [sqlalchemy.engine.Engine] SELECT DATABASE()
+2024-06-01 16:26:46,003 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:26:46,004 INFO  [sqlalchemy.engine.Engine] SELECT @@sql_mode
+2024-06-01 16:26:46,004 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:26:46,004 INFO  [sqlalchemy.engine.Engine] SELECT @@lower_case_table_names
+2024-06-01 16:26:46,005 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:26:46,006 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-06-01 16:26:46,006 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-06-01 16:26:46,006 INFO  [sqlalchemy.engine.Engine] SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 16:26:46,007 INFO  [sqlalchemy.engine.Engine] [generated in 0.00036s] {'table_schema': 'spider', 'table_name': 'alembic_version'}
+2024-06-01 16:26:46,008 INFO  [sqlalchemy.engine.Engine] SELECT alembic_version.version_num 
+FROM alembic_version
+2024-06-01 16:26:46,008 INFO  [sqlalchemy.engine.Engine] [generated in 0.00031s] {}
+2024-06-01 16:26:46,010 INFO  [sqlalchemy.engine.Engine] BEGIN (implicit)
+2024-06-01 16:26:46,010 INFO  [alembic.runtime.migration] Running upgrade a1c987230d59 -> 04b9e0335c43, second
+2024-06-01 16:26:46,011 INFO  [sqlalchemy.engine.Engine] UPDATE alembic_version SET version_num='04b9e0335c43' WHERE alembic_version.version_num = 'a1c987230d59'
+2024-06-01 16:26:46,011 INFO  [sqlalchemy.engine.Engine] [generated in 0.00027s] {}
+2024-06-01 16:26:46,012 INFO  [sqlalchemy.engine.Engine] COMMIT
+2024-06-01 16:28:52,277 INFO  [sqlalchemy.engine.Engine] SELECT DATABASE()
+2024-06-01 16:28:52,278 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:28:52,278 INFO  [sqlalchemy.engine.Engine] SELECT @@sql_mode
+2024-06-01 16:28:52,280 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:28:52,280 INFO  [sqlalchemy.engine.Engine] SELECT @@lower_case_table_names
+2024-06-01 16:28:52,280 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:28:52,281 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-06-01 16:28:52,281 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-06-01 16:28:52,282 INFO  [sqlalchemy.engine.Engine] SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 16:28:52,282 INFO  [sqlalchemy.engine.Engine] [generated in 0.00031s] {'table_schema': 'spider', 'table_name': 'alembic_version'}
+2024-06-01 16:28:52,284 INFO  [sqlalchemy.engine.Engine] SELECT alembic_version.version_num 
+FROM alembic_version
+2024-06-01 16:28:52,285 INFO  [sqlalchemy.engine.Engine] [generated in 0.00035s] {}
+2024-06-01 16:28:52,286 INFO  [sqlalchemy.engine.Engine] SHOW FULL TABLES FROM `spider`
+2024-06-01 16:28:52,286 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:28:52,287 INFO  [alembic.autogenerate.compare] Detected added table 'artist'
+2024-06-01 16:28:52,287 INFO  [alembic.autogenerate.compare] Detected added table 'movie'
+2024-06-01 16:28:52,287 INFO  [alembic.autogenerate.compare] Detected added table 'users'
+2024-06-01 16:28:52,287 INFO  [alembic.autogenerate.compare] Detected added index ''ix_users_id'' on '('id',)'
+2024-06-01 16:28:52,288 INFO  [alembic.autogenerate.compare] Detected added index ''ix_users_username'' on '('username',)'
+2024-06-01 16:30:02,711 INFO  [sqlalchemy.engine.Engine] SELECT DATABASE()
+2024-06-01 16:30:02,712 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:30:02,712 INFO  [sqlalchemy.engine.Engine] SELECT @@sql_mode
+2024-06-01 16:30:02,712 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:30:02,713 INFO  [sqlalchemy.engine.Engine] SELECT @@lower_case_table_names
+2024-06-01 16:30:02,713 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 16:30:02,713 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-06-01 16:30:02,713 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-06-01 16:30:02,713 INFO  [sqlalchemy.engine.Engine] SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 16:30:02,715 INFO  [sqlalchemy.engine.Engine] [generated in 0.00025s] {'table_schema': 'spider', 'table_name': 'alembic_version'}
+2024-06-01 16:30:02,717 INFO  [sqlalchemy.engine.Engine] SELECT alembic_version.version_num 
+FROM alembic_version
+2024-06-01 16:30:02,717 INFO  [sqlalchemy.engine.Engine] [generated in 0.00028s] {}
+2024-06-01 16:30:02,719 INFO  [sqlalchemy.engine.Engine] BEGIN (implicit)
+2024-06-01 16:30:02,719 INFO  [alembic.runtime.migration] Running upgrade 04b9e0335c43 -> a122898c78ae, second
+2024-06-01 16:30:02,720 INFO  [sqlalchemy.engine.Engine] 
+CREATE TABLE artist (
+	id INTEGER NOT NULL AUTO_INCREMENT, 
+	name_id INTEGER COMMENT '影视名称ID', 
+	movie_name VARCHAR(64) COMMENT '影视名称', 
+	name VARCHAR(16) COMMENT '演员名称', 
+	create_time DATETIME COMMENT '创建时间' DEFAULT now(), 
+	update_time DATETIME COMMENT '创建时间' DEFAULT now(), 
+	PRIMARY KEY (id)
+)
+
+
+2024-06-01 16:30:02,721 INFO  [sqlalchemy.engine.Engine] [no key 0.00119s] {}
+2024-06-01 16:30:02,728 INFO  [sqlalchemy.engine.Engine] 
+CREATE TABLE movie (
+	id INTEGER NOT NULL AUTO_INCREMENT, 
+	douban_id VARCHAR(32) COMMENT '豆瓣ID', 
+	movie_name VARCHAR(32) COMMENT '影视名称', 
+	image_url VARCHAR(256) COMMENT '图片URL', 
+	name_id INTEGER COMMENT '影视名称ID', 
+	create_time DATETIME COMMENT '创建时间' DEFAULT now(), 
+	update_time DATETIME COMMENT '创建时间' DEFAULT now(), 
+	PRIMARY KEY (id)
+)
+
+
+2024-06-01 16:30:02,729 INFO  [sqlalchemy.engine.Engine] [no key 0.00076s] {}
+2024-06-01 16:30:02,737 INFO  [sqlalchemy.engine.Engine] 
+CREATE TABLE users (
+	id INTEGER NOT NULL AUTO_INCREMENT, 
+	username VARCHAR(32), 
+	hashed_password VARCHAR(64), 
+	PRIMARY KEY (id)
+)
+
+
+2024-06-01 16:30:02,737 INFO  [sqlalchemy.engine.Engine] [no key 0.00050s] {}
+2024-06-01 16:30:02,743 INFO  [sqlalchemy.engine.Engine] CREATE INDEX ix_users_id ON users (id)
+2024-06-01 16:30:02,743 INFO  [sqlalchemy.engine.Engine] [no key 0.00032s] {}
+2024-06-01 16:30:02,751 INFO  [sqlalchemy.engine.Engine] CREATE UNIQUE INDEX ix_users_username ON users (username)
+2024-06-01 16:30:02,751 INFO  [sqlalchemy.engine.Engine] [no key 0.00026s] {}
+2024-06-01 16:30:02,757 INFO  [sqlalchemy.engine.Engine] UPDATE alembic_version SET version_num='a122898c78ae' WHERE alembic_version.version_num = '04b9e0335c43'
+2024-06-01 16:30:02,757 INFO  [sqlalchemy.engine.Engine] [generated in 0.00030s] {}
+2024-06-01 16:30:02,758 INFO  [sqlalchemy.engine.Engine] COMMIT
+2024-06-01 21:14:15,582 INFO  [sqlalchemy.engine.Engine] SELECT DATABASE()
+2024-06-01 21:14:15,582 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 21:14:15,583 INFO  [sqlalchemy.engine.Engine] SELECT @@sql_mode
+2024-06-01 21:14:15,583 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 21:14:15,584 INFO  [sqlalchemy.engine.Engine] SELECT @@lower_case_table_names
+2024-06-01 21:14:15,584 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 21:14:15,585 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-06-01 21:14:15,585 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-06-01 21:14:15,587 INFO  [sqlalchemy.engine.Engine] SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 21:14:15,587 INFO  [sqlalchemy.engine.Engine] [generated in 0.00039s] {'table_schema': 'spider', 'table_name': 'alembic_version'}
+2024-06-01 21:14:15,589 INFO  [sqlalchemy.engine.Engine] SELECT alembic_version.version_num 
+FROM alembic_version
+2024-06-01 21:14:15,590 INFO  [sqlalchemy.engine.Engine] [generated in 0.00037s] {}
+2024-06-01 21:14:15,592 INFO  [sqlalchemy.engine.Engine] SHOW FULL TABLES FROM `spider`
+2024-06-01 21:14:15,592 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 21:14:15,597 INFO  [sqlalchemy.engine.Engine] SHOW CREATE TABLE `movie`
+2024-06-01 21:14:15,597 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 21:14:15,599 INFO  [sqlalchemy.engine.Engine] SHOW CREATE TABLE `users`
+2024-06-01 21:14:15,599 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 21:14:15,600 INFO  [sqlalchemy.engine.Engine] SHOW CREATE TABLE `artist`
+2024-06-01 21:14:15,601 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 21:14:15,602 INFO  [alembic.autogenerate.compare] Detected added column 'artist.douban_id'
+2024-06-01 21:14:15,603 INFO  [alembic.autogenerate.compare] Detected removed column 'artist.name_id'
+2024-06-01 21:14:18,204 INFO  [sqlalchemy.engine.Engine] SELECT DATABASE()
+2024-06-01 21:14:18,205 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 21:14:18,205 INFO  [sqlalchemy.engine.Engine] SELECT @@sql_mode
+2024-06-01 21:14:18,206 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 21:14:18,206 INFO  [sqlalchemy.engine.Engine] SELECT @@lower_case_table_names
+2024-06-01 21:14:18,206 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-01 21:14:18,207 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-06-01 21:14:18,208 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-06-01 21:14:18,208 INFO  [sqlalchemy.engine.Engine] SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-01 21:14:18,208 INFO  [sqlalchemy.engine.Engine] [generated in 0.00022s] {'table_schema': 'spider', 'table_name': 'alembic_version'}
+2024-06-01 21:14:18,210 INFO  [sqlalchemy.engine.Engine] SELECT alembic_version.version_num 
+FROM alembic_version
+2024-06-01 21:14:18,210 INFO  [sqlalchemy.engine.Engine] [generated in 0.00028s] {}
+2024-06-01 21:14:18,212 INFO  [sqlalchemy.engine.Engine] BEGIN (implicit)
+2024-06-01 21:14:18,212 INFO  [alembic.runtime.migration] Running upgrade a122898c78ae -> e640e1a7fc11, third
+2024-06-01 21:14:18,213 INFO  [sqlalchemy.engine.Engine] ALTER TABLE artist ADD COLUMN douban_id VARCHAR(32) COMMENT '影视名称ID'
+2024-06-01 21:14:18,213 INFO  [sqlalchemy.engine.Engine] [no key 0.00023s] {}
+2024-06-01 21:14:18,229 INFO  [sqlalchemy.engine.Engine] ALTER TABLE artist DROP COLUMN name_id
+2024-06-01 21:14:18,229 INFO  [sqlalchemy.engine.Engine] [no key 0.00032s] {}
+2024-06-01 21:14:18,236 INFO  [sqlalchemy.engine.Engine] UPDATE alembic_version SET version_num='e640e1a7fc11' WHERE alembic_version.version_num = 'a122898c78ae'
+2024-06-01 21:14:18,236 INFO  [sqlalchemy.engine.Engine] [generated in 0.00034s] {}
+2024-06-01 21:14:18,237 INFO  [sqlalchemy.engine.Engine] COMMIT
+2024-06-02 02:28:28,961 INFO  [sqlalchemy.engine.Engine] SELECT DATABASE()
+2024-06-02 02:28:28,961 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-02 02:28:28,962 INFO  [sqlalchemy.engine.Engine] SELECT @@sql_mode
+2024-06-02 02:28:28,963 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-02 02:28:28,963 INFO  [sqlalchemy.engine.Engine] SELECT @@lower_case_table_names
+2024-06-02 02:28:28,963 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-02 02:28:28,965 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-06-02 02:28:28,965 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-06-02 02:28:28,965 INFO  [sqlalchemy.engine.Engine] SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-02 02:28:28,966 INFO  [sqlalchemy.engine.Engine] [generated in 0.00030s] {'table_schema': 'spider', 'table_name': 'alembic_version'}
+2024-06-02 02:28:28,967 INFO  [sqlalchemy.engine.Engine] SELECT alembic_version.version_num 
+FROM alembic_version
+2024-06-02 02:28:28,967 INFO  [sqlalchemy.engine.Engine] [generated in 0.00035s] {}
+2024-06-02 02:28:28,970 INFO  [sqlalchemy.engine.Engine] SHOW FULL TABLES FROM `spider`
+2024-06-02 02:28:28,971 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-02 02:28:28,975 INFO  [sqlalchemy.engine.Engine] SHOW CREATE TABLE `artist`
+2024-06-02 02:28:28,976 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-02 02:28:28,978 INFO  [sqlalchemy.engine.Engine] SHOW CREATE TABLE `users`
+2024-06-02 02:28:28,979 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-02 02:28:28,980 INFO  [sqlalchemy.engine.Engine] SHOW CREATE TABLE `movie`
+2024-06-02 02:28:28,980 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-02 02:28:28,982 INFO  [alembic.autogenerate.compare] Detected added column 'movie.image_type'
+2024-06-02 02:28:34,348 INFO  [sqlalchemy.engine.Engine] SELECT DATABASE()
+2024-06-02 02:28:34,348 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-02 02:28:34,349 INFO  [sqlalchemy.engine.Engine] SELECT @@sql_mode
+2024-06-02 02:28:34,350 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-02 02:28:34,350 INFO  [sqlalchemy.engine.Engine] SELECT @@lower_case_table_names
+2024-06-02 02:28:34,350 INFO  [sqlalchemy.engine.Engine] [raw sql] {}
+2024-06-02 02:28:34,351 INFO  [alembic.runtime.migration] Context impl MySQLImpl.
+2024-06-02 02:28:34,351 INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+2024-06-02 02:28:34,352 INFO  [sqlalchemy.engine.Engine] SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = %(table_schema)s AND table_name = %(table_name)s
+2024-06-02 02:28:34,352 INFO  [sqlalchemy.engine.Engine] [generated in 0.00026s] {'table_schema': 'spider', 'table_name': 'alembic_version'}
+2024-06-02 02:28:34,354 INFO  [sqlalchemy.engine.Engine] SELECT alembic_version.version_num 
+FROM alembic_version
+2024-06-02 02:28:34,354 INFO  [sqlalchemy.engine.Engine] [generated in 0.00036s] {}
+2024-06-02 02:28:34,356 INFO  [sqlalchemy.engine.Engine] BEGIN (implicit)
+2024-06-02 02:28:34,356 INFO  [alembic.runtime.migration] Running upgrade e640e1a7fc11 -> fadd66f386fd, add movie image type
+2024-06-02 02:28:34,357 INFO  [sqlalchemy.engine.Engine] ALTER TABLE movie ADD COLUMN image_type VARCHAR(16) COMMENT '图片类型'
+2024-06-02 02:28:34,357 INFO  [sqlalchemy.engine.Engine] [no key 0.00023s] {}
+2024-06-02 02:28:34,378 INFO  [sqlalchemy.engine.Engine] UPDATE alembic_version SET version_num='fadd66f386fd' WHERE alembic_version.version_num = 'e640e1a7fc11'
+2024-06-02 02:28:34,379 INFO  [sqlalchemy.engine.Engine] [generated in 0.00040s] {}
+2024-06-02 02:28:34,386 INFO  [sqlalchemy.engine.Engine] COMMIT

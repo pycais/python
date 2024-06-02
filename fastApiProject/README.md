@@ -1,3 +1,9 @@
+# 表迁移
+```angular2html
+alembic revision --autogenerate -m "Initial migration"
+alembic upgrade head
+```
+
 ### 目录结构详细说明
 
 #### `app/`
