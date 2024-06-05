@@ -14,15 +14,18 @@ class ImageDetailDialog(QDialog):
         self.setWindowTitle("图片详情")
         layout = QVBoxLayout()
 
+        # 图片区域
         self.image_label = QLabel()
         pixmap = QPixmap(image_path)
         self.image_label.setPixmap(pixmap.scaled(400, 400, Qt.KeepAspectRatio))
         layout.addWidget(self.image_label)
 
+        # 演员选择区域
         self.actors_list = QComboBox()
         self.actors_list.addItems(actors)
         layout.addWidget(self.actors_list)
 
+        # 按钮
         buttons = QDialogButtonBox(QDialogButtonBox.Ok | QDialogButtonBox.Cancel)
         buttons.accepted.connect(self.accept)
         buttons.rejected.connect(self.reject)
@@ -37,11 +40,13 @@ class ImageAnnotationApp(QMainWindow):
         self.setWindowTitle("图片标注界面")
         self.setGeometry(100, 100, 1200, 800)
 
+        # 创建主窗口布局
         self.current_page = 1
         self.records_per_page = 10
 
         main_layout = QVBoxLayout()
 
+        # 创建导航栏
         menu_bar = QMenuBar()
         self.setMenuBar(menu_bar)
         menu = QMenu("选择", self)
@@ -51,6 +56,7 @@ class ImageAnnotationApp(QMainWindow):
         menu.addAction(annotate_action)
         menu.addAction(task_action)
 
+        # 创建搜索栏
         search_layout = QHBoxLayout()
         self.image_name_search = QLineEdit()
         self.image_name_search.setPlaceholderText("根据图片名称搜索")
@@ -73,6 +79,7 @@ class ImageAnnotationApp(QMainWindow):
         self.search_button.clicked.connect(self.perform_search)
         self.clear_search_button.clicked.connect(self.clear_search)
 
+        # 创建内容区（表格）
         self.table = QTableWidget(0, 5)
         self.table.setHorizontalHeaderLabels(["影视名称", "豆瓣ID", "图片", "演员名称", "详情"])
         self.table.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
@@ -109,11 +116,13 @@ class ImageAnnotationApp(QMainWindow):
         self.next_page_button.clicked.connect(lambda: self.change_page(self.current_page + 1))
         self.last_page_button.clicked.connect(lambda: self.change_page(self.total_pages()))
 
+        # 将组件添加到主布局
         main_layout.addLayout(search_layout)
         # main_layout.addLayout(button_layout)
         main_layout.addWidget(self.table)
         main_layout.addLayout(pagination_layout)
 
+        # 创建中央部件并设置主布局
         central_widget = QWidget()
         central_widget.setLayout(main_layout)
         self.setCentralWidget(central_widget)
